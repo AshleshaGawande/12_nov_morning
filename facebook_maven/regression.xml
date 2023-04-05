@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite"  thread-count="1" parallel="classes">
+     <test name="chromeTest">
+	  <parameter name="browser" value="chrome"/>
+      <classes>
+     
+	  <class name="testNG.VerifyForgotPasswordPage"/>
+	  <class name="testNG.VerifySignUpPage"/>
+	   </classes>
+	   </test><!-- Test1-->
+		 
+	 <test name="EdgeTest">
+	  <parameter name="browser" value="Edge"/>
+    <classes>
+      
+	  <class name="testNG.VerifyForgotPasswordPage"/>
+	  <class name="testNG.VerifySignUpPage"/>
+	   </classes>
+	   </test><!-- Test1-->
+		 
+	  </suite> <!-- Suite -->

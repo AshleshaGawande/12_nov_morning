@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="6" failed="2" skipped="8">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-30T10:47:28 IST" name="Suite" finished-at="2023-03-30T10:50:14 IST" duration-ms="166025">
+    <groups>
+    </groups>
+    <test started-at="2023-03-30T10:47:28 IST" name="chromeTest" finished-at="2023-03-30T10:48:23 IST" duration-ms="54928">
+      <class name="testNG.VerifySignUpPage">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:testNG.VerifySignUpPage@5403f35f]" started-at="2023-03-30T10:47:32 IST" name="openBrowser" finished-at="2023-03-30T10:47:38 IST" duration-ms="5337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNG.VerifySignUpPage@5403f35f]" started-at="2023-03-30T10:48:07 IST" name="beforeClass" finished-at="2023-03-30T10:48:07 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.VerifySignUpPage@5403f35f]" started-at="2023-03-30T10:48:07 IST" name="beforeMethod" finished-at="2023-03-30T10:48:14 IST" duration-ms="7403" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "pom.loginpage.clickOnCreateNewAcc()" because "this.loginPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "pom.loginpage.clickOnCreateNewAcc()" because "this.loginPage" is null
+at testNG.VerifySignUpPage.beforeMethod(VerifySignUpPage.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="signUpPage()[pri:0, instance:testNG.VerifySignUpPage@5403f35f]" started-at="2023-03-30T10:48:14 IST" name="signUpPage" finished-at="2023-03-30T10:48:14 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "pom.loginpage.clickOnCreateNewAcc()" because "this.loginPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "pom.loginpage.clickOnCreateNewAcc()" because "this.loginPage" is null
+at testNG.VerifySignUpPage.beforeMethod(VerifySignUpPage.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpPage -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.VerifySignUpPage@5403f35f]" started-at="2023-03-30T10:48:14 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680153494947" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.VerifySignUpPage@5403f35f]" started-at="2023-03-30T10:48:14 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680153494952" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="signpage1()[pri:0, instance:testNG.VerifySignUpPage@5403f35f]" started-at="2023-03-30T10:48:14 IST" name="signpage1" finished-at="2023-03-30T10:48:14 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "pom.loginpage.clickOnCreateNewAcc()" because "this.loginPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "pom.loginpage.clickOnCreateNewAcc()" because "this.loginPage" is null
+at testNG.VerifySignUpPage.beforeMethod(VerifySignUpPage.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signpage1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.VerifySignUpPage@5403f35f]" started-at="2023-03-30T10:48:14 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680153494961" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.VerifySignUpPage@5403f35f]" started-at="2023-03-30T10:48:14 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680153494964" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="signpage2()[pri:0, instance:testNG.VerifySignUpPage@5403f35f]" started-at="2023-03-30T10:48:14 IST" name="signpage2" finished-at="2023-03-30T10:48:14 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "pom.loginpage.clickOnCreateNewAcc()" because "this.loginPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "pom.loginpage.clickOnCreateNewAcc()" because "this.loginPage" is null
+at testNG.VerifySignUpPage.beforeMethod(VerifySignUpPage.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signpage2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.VerifySignUpPage@5403f35f]" started-at="2023-03-30T10:48:14 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680153494968" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.VerifySignUpPage@5403f35f]" started-at="2023-03-30T10:48:14 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680153494971" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="signupPage2()[pri:0, instance:testNG.VerifySignUpPage@5403f35f]" started-at="2023-03-30T10:48:14 IST" name="signupPage2" finished-at="2023-03-30T10:48:14 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "pom.loginpage.clickOnCreateNewAcc()" because "this.loginPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "pom.loginpage.clickOnCreateNewAcc()" because "this.loginPage" is null
+at testNG.VerifySignUpPage.beforeMethod(VerifySignUpPage.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupPage2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.VerifySignUpPage@5403f35f]" started-at="2023-03-30T10:48:15 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680153495007" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="clearObjects()[pri:0, instance:testNG.VerifySignUpPage@5403f35f]" started-at="2023-03-30T10:48:15 IST" name="clearObjects" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680153495015" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObjects -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:testNG.VerifySignUpPage@5403f35f]" started-at="2023-03-30T10:48:22 IST" name="closedBrowser" finished-at="2023-03-30T10:48:23 IST" duration-ms="950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- testNG.VerifySignUpPage -->
+      <class name="testNG.VerifyForgotPasswordPage">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:testNG.VerifyForgotPasswordPage@759d26fb]" started-at="2023-03-30T10:47:28 IST" name="openBrowser" finished-at="2023-03-30T10:47:32 IST" duration-ms="3889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="createPomObjects()[pri:0, instance:testNG.VerifyForgotPasswordPage@759d26fb]" started-at="2023-03-30T10:47:38 IST" name="createPomObjects" finished-at="2023-03-30T10:47:38 IST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPomObjects -->
+        <test-method is-config="true" signature="goToForgotPasswodPage()[pri:0, instance:testNG.VerifyForgotPasswordPage@759d26fb]" started-at="2023-03-30T10:47:38 IST" name="goToForgotPasswodPage" finished-at="2023-03-30T10:47:44 IST" duration-ms="6229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToForgotPasswodPage -->
+        <test-method signature="verifyCancleButtoForgotPasswardPage()[pri:-1, instance:testNG.VerifyForgotPasswordPage@759d26fb]" started-at="2023-03-30T10:47:44 IST" name="verifyCancleButtoForgotPasswardPage" finished-at="2023-03-30T10:47:44 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCancleButtoForgotPasswardPage -->
+        <test-method is-config="true" signature="logoutFromApplicatiion()[pri:0, instance:testNG.VerifyForgotPasswordPage@759d26fb]" started-at="2023-03-30T10:47:44 IST" name="logoutFromApplicatiion" finished-at="2023-03-30T10:47:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplicatiion -->
+        <test-method is-config="true" signature="goToForgotPasswodPage()[pri:0, instance:testNG.VerifyForgotPasswordPage@759d26fb]" started-at="2023-03-30T10:47:44 IST" name="goToForgotPasswodPage" finished-at="2023-03-30T10:47:48 IST" duration-ms="4115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToForgotPasswodPage -->
+        <test-method signature="verifyCancleButtonForgotPasswardPage()[pri:0, instance:testNG.VerifyForgotPasswordPage@759d26fb]" started-at="2023-03-30T10:47:48 IST" name="verifyCancleButtonForgotPasswardPage" finished-at="2023-03-30T10:47:49 IST" duration-ms="462" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Log in to Facebook] but found [Forgotten Password | Can't Log In | Facebook]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Log in to Facebook] but found [Forgotten Password | Can't Log In | Facebook]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at testNG.VerifyForgotPasswordPage.verifyCancleButtonForgotPasswardPage(VerifyForgotPasswordPage.java:89)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCancleButtonForgotPasswardPage -->
+        <test-method is-config="true" signature="logoutFromApplicatiion()[pri:0, instance:testNG.VerifyForgotPasswordPage@759d26fb]" started-at="2023-03-30T10:47:49 IST" name="logoutFromApplicatiion" finished-at="2023-03-30T10:47:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplicatiion -->
+        <test-method is-config="true" signature="goToForgotPasswodPage()[pri:0, instance:testNG.VerifyForgotPasswordPage@759d26fb]" started-at="2023-03-30T10:47:49 IST" name="goToForgotPasswodPage" finished-at="2023-03-30T10:47:57 IST" duration-ms="7592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToForgotPasswodPage -->
+        <test-method signature="verifyMessageOnForgotPasswordPage()[pri:0, instance:testNG.VerifyForgotPasswordPage@759d26fb]" started-at="2023-03-30T10:47:57 IST" name="verifyMessageOnForgotPasswordPage" finished-at="2023-03-30T10:47:57 IST" duration-ms="827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMessageOnForgotPasswordPage -->
+        <test-method is-config="true" signature="logoutFromApplicatiion()[pri:0, instance:testNG.VerifyForgotPasswordPage@759d26fb]" started-at="2023-03-30T10:47:57 IST" name="logoutFromApplicatiion" finished-at="2023-03-30T10:47:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplicatiion -->
+        <test-method is-config="true" signature="goToForgotPasswodPage()[pri:0, instance:testNG.VerifyForgotPasswordPage@759d26fb]" started-at="2023-03-30T10:47:57 IST" name="goToForgotPasswodPage" finished-at="2023-03-30T10:48:06 IST" duration-ms="8129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToForgotPasswodPage -->
+        <test-method signature="veriffySearchFunctionOnForgotPasswordPage()[pri:1, instance:testNG.VerifyForgotPasswordPage@759d26fb]" started-at="2023-03-30T10:48:06 IST" name="veriffySearchFunctionOnForgotPasswordPage" finished-at="2023-03-30T10:48:07 IST" duration-ms="1484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- veriffySearchFunctionOnForgotPasswordPage -->
+        <test-method is-config="true" signature="logoutFromApplicatiion()[pri:0, instance:testNG.VerifyForgotPasswordPage@759d26fb]" started-at="2023-03-30T10:48:07 IST" name="logoutFromApplicatiion" finished-at="2023-03-30T10:48:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplicatiion -->
+        <test-method is-config="true" signature="clearObjects()[pri:0, instance:testNG.VerifyForgotPasswordPage@759d26fb]" started-at="2023-03-30T10:48:07 IST" name="clearObjects" finished-at="2023-03-30T10:48:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObjects -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:testNG.VerifyForgotPasswordPage@759d26fb]" started-at="2023-03-30T10:48:15 IST" name="closedBrowser" finished-at="2023-03-30T10:48:22 IST" duration-ms="7870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- testNG.VerifyForgotPasswordPage -->
+    </test> <!-- chromeTest -->
+    <test started-at="2023-03-30T10:48:24 IST" name="EdgeTest" finished-at="2023-03-30T10:50:14 IST" duration-ms="110901">
+      <class name="testNG.VerifySignUpPage">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:testNG.VerifySignUpPage@21e360a]" started-at="2023-03-30T10:48:33 IST" name="openBrowser" finished-at="2023-03-30T10:48:44 IST" duration-ms="10742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNG.VerifySignUpPage@21e360a]" started-at="2023-03-30T10:50:05 IST" name="beforeClass" finished-at="2023-03-30T10:50:05 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.VerifySignUpPage@21e360a]" started-at="2023-03-30T10:50:05 IST" name="beforeMethod" finished-at="2023-03-30T10:50:10 IST" duration-ms="5149" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "pom.loginpage.clickOnCreateNewAcc()" because "this.loginPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "pom.loginpage.clickOnCreateNewAcc()" because "this.loginPage" is null
+at testNG.VerifySignUpPage.beforeMethod(VerifySignUpPage.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="signUpPage()[pri:0, instance:testNG.VerifySignUpPage@21e360a]" started-at="2023-03-30T10:50:10 IST" name="signUpPage" finished-at="2023-03-30T10:50:10 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "pom.loginpage.clickOnCreateNewAcc()" because "this.loginPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "pom.loginpage.clickOnCreateNewAcc()" because "this.loginPage" is null
+at testNG.VerifySignUpPage.beforeMethod(VerifySignUpPage.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpPage -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.VerifySignUpPage@21e360a]" started-at="2023-03-30T10:50:10 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680153610643" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.VerifySignUpPage@21e360a]" started-at="2023-03-30T10:50:10 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680153610647" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="signpage1()[pri:0, instance:testNG.VerifySignUpPage@21e360a]" started-at="2023-03-30T10:50:10 IST" name="signpage1" finished-at="2023-03-30T10:50:10 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "pom.loginpage.clickOnCreateNewAcc()" because "this.loginPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "pom.loginpage.clickOnCreateNewAcc()" because "this.loginPage" is null
+at testNG.VerifySignUpPage.beforeMethod(VerifySignUpPage.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signpage1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.VerifySignUpPage@21e360a]" started-at="2023-03-30T10:50:10 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680153610653" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.VerifySignUpPage@21e360a]" started-at="2023-03-30T10:50:10 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680153610657" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="signpage2()[pri:0, instance:testNG.VerifySignUpPage@21e360a]" started-at="2023-03-30T10:50:10 IST" name="signpage2" finished-at="2023-03-30T10:50:10 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "pom.loginpage.clickOnCreateNewAcc()" because "this.loginPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "pom.loginpage.clickOnCreateNewAcc()" because "this.loginPage" is null
+at testNG.VerifySignUpPage.beforeMethod(VerifySignUpPage.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signpage2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.VerifySignUpPage@21e360a]" started-at="2023-03-30T10:50:10 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680153610664" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.VerifySignUpPage@21e360a]" started-at="2023-03-30T10:50:10 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680153610670" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="signupPage2()[pri:0, instance:testNG.VerifySignUpPage@21e360a]" started-at="2023-03-30T10:50:10 IST" name="signupPage2" finished-at="2023-03-30T10:50:10 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "pom.loginpage.clickOnCreateNewAcc()" because "this.loginPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "pom.loginpage.clickOnCreateNewAcc()" because "this.loginPage" is null
+at testNG.VerifySignUpPage.beforeMethod(VerifySignUpPage.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupPage2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.VerifySignUpPage@21e360a]" started-at="2023-03-30T10:50:10 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680153610676" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="clearObjects()[pri:0, instance:testNG.VerifySignUpPage@21e360a]" started-at="2023-03-30T10:50:10 IST" name="clearObjects" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680153610680" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObjects -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:testNG.VerifySignUpPage@21e360a]" started-at="2023-03-30T10:50:14 IST" name="closedBrowser" finished-at="2023-03-30T10:50:14 IST" duration-ms="696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- testNG.VerifySignUpPage -->
+      <class name="testNG.VerifyForgotPasswordPage">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:testNG.VerifyForgotPasswordPage@7bd4937b]" started-at="2023-03-30T10:48:24 IST" name="openBrowser" finished-at="2023-03-30T10:48:33 IST" duration-ms="9501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="createPomObjects()[pri:0, instance:testNG.VerifyForgotPasswordPage@7bd4937b]" started-at="2023-03-30T10:48:44 IST" name="createPomObjects" finished-at="2023-03-30T10:48:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPomObjects -->
+        <test-method is-config="true" signature="goToForgotPasswodPage()[pri:0, instance:testNG.VerifyForgotPasswordPage@7bd4937b]" started-at="2023-03-30T10:48:44 IST" name="goToForgotPasswodPage" finished-at="2023-03-30T10:48:58 IST" duration-ms="14586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToForgotPasswodPage -->
+        <test-method signature="verifyCancleButtoForgotPasswardPage()[pri:-1, instance:testNG.VerifyForgotPasswordPage@7bd4937b]" started-at="2023-03-30T10:48:58 IST" name="verifyCancleButtoForgotPasswardPage" finished-at="2023-03-30T10:48:59 IST" duration-ms="825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCancleButtoForgotPasswardPage -->
+        <test-method is-config="true" signature="logoutFromApplicatiion()[pri:0, instance:testNG.VerifyForgotPasswordPage@7bd4937b]" started-at="2023-03-30T10:48:59 IST" name="logoutFromApplicatiion" finished-at="2023-03-30T10:48:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplicatiion -->
+        <test-method is-config="true" signature="goToForgotPasswodPage()[pri:0, instance:testNG.VerifyForgotPasswordPage@7bd4937b]" started-at="2023-03-30T10:48:59 IST" name="goToForgotPasswodPage" finished-at="2023-03-30T10:49:35 IST" duration-ms="35767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToForgotPasswodPage -->
+        <test-method signature="verifyCancleButtonForgotPasswardPage()[pri:0, instance:testNG.VerifyForgotPasswordPage@7bd4937b]" started-at="2023-03-30T10:49:35 IST" name="verifyCancleButtonForgotPasswardPage" finished-at="2023-03-30T10:49:37 IST" duration-ms="1522" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Log in to Facebook] but found [Forgotten Password | Can't Log In | Facebook]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Log in to Facebook] but found [Forgotten Password | Can't Log In | Facebook]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at testNG.VerifyForgotPasswordPage.verifyCancleButtonForgotPasswardPage(VerifyForgotPasswordPage.java:89)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCancleButtonForgotPasswardPage -->
+        <test-method is-config="true" signature="logoutFromApplicatiion()[pri:0, instance:testNG.VerifyForgotPasswordPage@7bd4937b]" started-at="2023-03-30T10:49:37 IST" name="logoutFromApplicatiion" finished-at="2023-03-30T10:49:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplicatiion -->
+        <test-method is-config="true" signature="goToForgotPasswodPage()[pri:0, instance:testNG.VerifyForgotPasswordPage@7bd4937b]" started-at="2023-03-30T10:49:37 IST" name="goToForgotPasswodPage" finished-at="2023-03-30T10:49:48 IST" duration-ms="11974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToForgotPasswodPage -->
+        <test-method signature="verifyMessageOnForgotPasswordPage()[pri:0, instance:testNG.VerifyForgotPasswordPage@7bd4937b]" started-at="2023-03-30T10:49:48 IST" name="verifyMessageOnForgotPasswordPage" finished-at="2023-03-30T10:49:49 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMessageOnForgotPasswordPage -->
+        <test-method is-config="true" signature="logoutFromApplicatiion()[pri:0, instance:testNG.VerifyForgotPasswordPage@7bd4937b]" started-at="2023-03-30T10:49:49 IST" name="logoutFromApplicatiion" finished-at="2023-03-30T10:49:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplicatiion -->
+        <test-method is-config="true" signature="goToForgotPasswodPage()[pri:0, instance:testNG.VerifyForgotPasswordPage@7bd4937b]" started-at="2023-03-30T10:49:49 IST" name="goToForgotPasswodPage" finished-at="2023-03-30T10:50:05 IST" duration-ms="15838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToForgotPasswodPage -->
+        <test-method signature="veriffySearchFunctionOnForgotPasswordPage()[pri:1, instance:testNG.VerifyForgotPasswordPage@7bd4937b]" started-at="2023-03-30T10:50:05 IST" name="veriffySearchFunctionOnForgotPasswordPage" finished-at="2023-03-30T10:50:05 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- veriffySearchFunctionOnForgotPasswordPage -->
+        <test-method is-config="true" signature="logoutFromApplicatiion()[pri:0, instance:testNG.VerifyForgotPasswordPage@7bd4937b]" started-at="2023-03-30T10:50:05 IST" name="logoutFromApplicatiion" finished-at="2023-03-30T10:50:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplicatiion -->
+        <test-method is-config="true" signature="clearObjects()[pri:0, instance:testNG.VerifyForgotPasswordPage@7bd4937b]" started-at="2023-03-30T10:50:05 IST" name="clearObjects" finished-at="2023-03-30T10:50:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObjects -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:testNG.VerifyForgotPasswordPage@7bd4937b]" started-at="2023-03-30T10:50:10 IST" name="closedBrowser" finished-at="2023-03-30T10:50:14 IST" duration-ms="3558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- testNG.VerifyForgotPasswordPage -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
