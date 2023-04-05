@@ -44,10 +44,26 @@ public class VerifyForgotPasswordPage  extends Base{
 		   
 		   driver = openEdgeBrowser();
 	  }
+	  
+	  //extra code for understand git
+	  if(BrowserName.equals("safari"))
+	  {
+
+		   
+		   driver = opensafariBrowser();
+	  }
+	  
+	  
+	  
+	  
 	  driver.manage().window().maximize();
 	  driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 	   }
-	   @BeforeClass
+	   private WebDriver opensafariBrowser() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@BeforeClass
 	   public void createPomObjects() {
 		    forgotPassPage =new  forgotPaswordPage(driver);
 		    loginPage= new  loginpage(driver);
